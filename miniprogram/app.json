@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/submit/submit",
+    "pages/answer1/answer1",
+    "pages/answer2/answer2"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#494949",
+    "navigationBarTitleText": "好兄弟帮帮我",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#a9b7b7",
+    "borderStyle": "black",
+    "backgroundColor":"#EEEEEE",
+    "list": [
+      {
+        "pagePath": "pages/answer1/answer1",
+        "text": "首页",
+        "iconPath": "images/首页.png",
+        "selectedIconPath": "images/首页 (1).png"
+      },
+      {
+        "pagePath": "pages/submit/submit",
+        "text": "发布",
+        "iconPath": "images/发布信息.png",
+        "selectedIconPath": "images/发布信息 (1).png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "登录",
+        "iconPath": "images/登录.png",
+        "selectedIconPath": "images/登录(1).png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

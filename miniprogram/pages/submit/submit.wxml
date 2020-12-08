@@ -1,0 +1,53 @@
+<form bindsubmit="formSubmit" >
+
+  <view class='title'>
+    <view class='title_text'>
+      <text>类型:</text>
+    
+      <textarea name="type" class='textarea' value='{{type}}' bindblur='typeBlur'></textarea>
+    </view>
+  </view>
+
+
+  
+  <view class='title'>
+    <view class='title_text'>
+      <text>请求内容:</text>
+      <input name="title" type='text' value='{{title}}' bindblur='titleBlur'></input>
+    </view>
+  </view>
+  <view class='title'>
+    <view class='title_text'>
+      <text>价格:</text>
+      <input name="price" type='number' value='{{price}}' bindblur='priceBlur'></input>
+    </view>
+  </view>
+
+  <view class='info-point'>
+    <view class='title_text'>
+      <text>信息:</text>
+      <textarea name="info" class='textarea' value='{{info}}' bindblur='infoBlur'></textarea>
+    </view>
+  </view>
+
+  <view class='info-point'>
+    <view class='title_text'>
+      <text>时间:</text>
+      <textarea name="point" class='textarea' value='{{point}}' bindblur='pointBlur'></textarea>
+    </view>
+  </view>
+
+ 
+ 
+  
+ 
+ 
+
+
+
+
+
+<button form-type='submit' class='sureRelease' bindtap="sureSubmit">确认发布</button>
+</form>
+
+ 

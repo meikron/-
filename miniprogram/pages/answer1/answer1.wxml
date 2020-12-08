@@ -1,0 +1,41 @@
+
+
+
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-panel">
+    <view class="weui-search-bar">
+      <view class="weui-search-bar__form">
+        <view class="weui-search-bar__box">
+          <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+        
+
+            <icon type="clear" size="14"></icon>
+          </view>
+        </view>
+        <label class="weui-search-bar__label" hidden="{{}}" bindtap="">
+          <icon class="weui-icon-search" type="search" size="14"></icon>
+          <view class="weui-search-bar__text">搜索</view>
+        </label>
+      </view>
+      <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">刷新</view>
+    </view>
+  </view>
+  <view class="gradient-text1">
+<view >{{wangyi[0].content}}</view>
+<view class="gradient-text">来自:《{{wangyi[0].source}}》</view>
+</view>
+<view wx:for="{{count}}"  class="meikron" bindtap='buttonListener' id="{{index}}">
+  <view class="index1">{{index+1}}</view>
+<view>
+<text class="weui-navbar__title">类型：{{count[index].type}}</text>
+</view>
+<view>
+<text class="weui-navbar__title">价格：{{count[index].price}}</text>
+</view>
+
+<view >
+  <view class="divLine"></view>
+</view>
+
+
+</view>

@@ -1,0 +1,26 @@
+<view>
+<view class="weui-navbar__title">请求内容：{{count[id].title}}</view>
+<view class="">
+  <view class="divLine"></view>
+</view>
+<view class="weui-navbar__title">价格：{{count[id].price}}</view>
+<view class="">
+  <view class="divLine"></view>
+</view>
+<view class="weui-navbar__title">信息：{{count[id].info}}</view>
+<view class="">
+  <view class="divLine"></view>
+</view>
+<view class="weui-navbar__title">时间：{{count[id].point}}</view>
+<view class="">
+  <view class="divLine"></view>
+</view>
+<view class="weui-navbar__title">类型：{{count[id].type}}</view>
+<view class="">
+  <view class="divLine"></view>
+</view>
+<button  class='getCodeView'bindtap='bindanswer' id="{{answer}}">{{count[id].tag}}</button>
+<button  class='getCodeView'bindtap='complete' data-id="{{count[id]._id}}">完成</button>
+<button  class='getCodeView'bindtap='back'>返回</button>
+</view>
+

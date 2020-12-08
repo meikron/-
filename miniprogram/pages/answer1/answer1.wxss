@@ -1,0 +1,58 @@
+@import "/style/weui.wxss";
+.sureRelease {
+  background-color: rgba(48, 57, 136, 0.623);
+  color: white;
+
+  width: 100%;
+  bottom: 0rpx;
+}
+.section {
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid gainsboro;
+  height: 80rpx;
+}
+.item_content{
+  display: flex;
+  flex-direction: cow;
+}
+
+.item_content_left{
+  margin-left: 40rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.divLine{
+  background: #E0E3DA;
+  width: 100%;
+  height: 10rpx;
+ }
+.meikron{
+  border:20rpxsolid hsla(0,0%,100%,5);
+background:linear-gradient(#52dcf5,rgb(143, 107, 83));
+background-clip: padding-box;
+}
+.index1{
+  font-size: 25px;
+  color: rgb(129, 129, 129);
+}
+.gradient-text {
+  font-size: 30rpx;
+  font-weight: bold;
+  background: linear-gradient(to right, #1ae8c8, #4a8aff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align:right;
+  
+}
+.gradient-text1{
+  font-size: 30rpx;
+  font-weight: bold;
+  background: linear-gradient(to right, #1ae8c8, #4a8aff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
